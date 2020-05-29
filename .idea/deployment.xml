@@ -5,8 +5,9 @@
       <paths name="lightalight">
         <serverdata>
           <mappings>
-            <mapping deploy="/api" local="$PROJECT_DIR$/api" web="/" />
-            <mapping deploy="/desktop" local="$PROJECT_DIR$/desktop/dist" web="/" />
+            <mapping deploy="/media/api" local="$PROJECT_DIR$/api" web="/" />
+            <mapping deploy="/media/desktop" local="$PROJECT_DIR$/desktop/dist" web="/" />
+            <mapping deploy="/media/mobile" local="$PROJECT_DIR$/mobile/dist" />
           </mappings>
         </serverdata>
       </paths>

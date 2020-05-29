@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'Helvetica';
-  src: url(/static/fonts/HelveticaLight.ttf);
+  src: url(../fonts/HelveticaLight.ttf);
   font-style: normal;
   font-weight: 300;
 }
 @font-face {
   font-family: 'Helvetica';
-  src: url(/static/fonts/HelveticaRegular.ttf);
+  src: url(../fonts/HelveticaRegular.ttf);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: 'Helvetica';
-  src: url(/static/fonts/HelveticaBold.ttf);
+  src: url(../fonts/HelveticaBold.ttf);
   font-style: normal;
   font-weight: 600;
 }
 @font-face {
   font-family: 'Helvetica';
-  src: url(/static/fonts/HelveticaItalic.ttf);
+  src: url(../fonts/HelveticaItalic.ttf);
   font-style: italic;
   font-weight: 400;
 }
