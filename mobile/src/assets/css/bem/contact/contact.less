@@ -1,0 +1,28 @@
+@import "../../variables.less";
+
+.contact {
+  padding: 1.5rem 0;
+
+  &__wrapper {
+    text-align: center;
+  }
+  &__item {
+    font-weight: 300;
+    color: @color-white;
+    margin-bottom: .5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__link {
+    font-size: inherit;
+    color: @color-orange;
+    text-decoration: none;
+    transition: color, .4s;
+
+    &:hover {
+      color: @color-white;
+    }
+  }
+}

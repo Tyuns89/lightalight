@@ -1,0 +1,15 @@
+.product-list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-list__item {
+  flex-basis: 49%;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+.product-list__item:nth-last-child(1),
+.product-list__item:nth-last-child(2) {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=product-list.css.map */

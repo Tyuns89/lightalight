@@ -1,0 +1,23 @@
+{
+  "name": "LightalightAPI",
+  "authors": [
+    {
+      "name": "Oleg Obletsov",
+      "email": "gektor89.89@yandex.ru"
+    }
+  ],
+  "require": {
+    "php":">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "phpmailer/phpmailer": "^6.1",
+    "slim/slim": "4.0",
+    "slim/psr7": "^1.0",
+    "sanmai/cdek-sdk": "^0.6.39"
+  },
+  "autoload": {
+    "psr-4": {
+      "Main\\Classes\\": "classes/"
+    }
+  }
+}

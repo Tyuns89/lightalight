@@ -1,0 +1,104 @@
+.product-item {
+  border: 0.0625rem solid #666;
+}
+.product-item__wrapper {
+  text-align: center;
+  padding: 0.5rem;
+  position: relative;
+}
+.product-item__sale-top {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #fff;
+  padding: 0.2rem 0.3rem;
+  background-color: #fe4940;
+  position: absolute;
+  top: -0.0625rem;
+  right: -0.0625rem;
+}
+.product-item__img {
+  display: block;
+  margin-bottom: 1rem;
+}
+.product-item__img-wrapper {
+  display: block;
+  height: 12.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.product-item__name {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #202020;
+  font-weight: 600;
+  text-decoration: none;
+  height: 2rem;
+  margin-bottom: 1rem;
+  transition: color, 0.4s;
+}
+.product-item__name:hover {
+  color: #ffa500;
+}
+.product-item__article {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 300;
+  color: #666;
+}
+.product-item__stock {
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #2ca506;
+  padding-left: 1rem;
+  position: relative;
+}
+.product-item__stock:before {
+  content: '';
+  display: block;
+  width: 0.625rem;
+  height: 0.5625rem;
+  background-image: url(./img/product-item_stock.png);
+  background-position: left center;
+  position: absolute;
+  top: 0.1875rem;
+  left: 0;
+}
+.product-item__props {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 3.75rem;
+  margin: 0.5rem 0;
+}
+.product-item__prop {
+  flex-basis: 100%;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: #313131;
+}
+.product-item__prices {
+  margin: 0.75rem 0;
+}
+.product-item__sale {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #666;
+  text-decoration: line-through;
+  margin-bottom: 0.2rem;
+}
+.product-item__price {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #202020;
+  font-weight: 600;
+}
+.product-item__button {
+  width: 100%;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=product-item.css.map */

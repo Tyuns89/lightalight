@@ -1,0 +1,50 @@
+@import "../../variables.less";
+
+.advantages {
+  margin-bottom: 1.5rem;
+
+  &__wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  &__item {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-wrapper {
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: left center;
+      padding-left: 3.5rem;
+    }
+  }
+  &__name {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  &__content {
+    font-size: .9rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+  }
+  &__button {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: @color-orange;
+    border-bottom: .05rem dotted @color-orange;
+    cursor: pointer;
+    user-select: none;
+    transition: color, .4s;
+
+    &:hover {
+      color: @color-gray;
+      border-color: @color-gray;
+    }
+  }
+}

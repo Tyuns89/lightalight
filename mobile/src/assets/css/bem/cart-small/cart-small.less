@@ -1,0 +1,39 @@
+@import "../../variables.less";
+
+.cart-small {
+  position: relative;
+
+  &__wrapper {
+    width: 1.9375rem;
+    height: 1.9375rem;
+    background-image: url(./img/cart-small_icon.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  &__count {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    background-color: @color-black;
+    border-radius: 50%;
+    color: @color-white;
+    font-size: .7rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5625rem;
+    position: absolute;
+    top: -.625rem;
+    right: -1rem;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    width: 1.9375rem;
+    height: 1.9375rem;
+    border-radius: 50%;
+    background-color: @color-orange;
+    position: absolute;
+  }
+}

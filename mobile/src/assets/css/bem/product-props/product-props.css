@@ -1,0 +1,35 @@
+.product-props__wrapper {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 300;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-props__title {
+  font-weight: 600;
+  color: #202020;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.product-props__item {
+  flex-basis: 100%;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.product-props__item:last-child {
+  margin-bottom: 0;
+}
+.product-props__name {
+  padding-right: 0.5rem;
+}
+.product-props__arrow {
+  flex-grow: 1;
+  border-bottom: 0.05rem dotted #666;
+}
+.product-props__value {
+  padding-left: 0.5rem;
+}
+/*# sourceMappingURL=product-props.css.map */

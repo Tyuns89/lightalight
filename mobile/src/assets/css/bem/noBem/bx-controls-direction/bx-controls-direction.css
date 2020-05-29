@@ -1,0 +1,26 @@
+.bx-controls-direction {
+  text-align: center;
+}
+.bx-controls-direction a {
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity, 0.4s;
+}
+.bx-controls-direction a:first-child {
+  background-image: url(./img/bx-controls-direction_icon.png);
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}
+.bx-controls-direction a:last-child {
+  background-image: url(./img/bx-controls-direction_icon.png);
+}
+.bx-controls-direction a:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=bx-controls-direction.css.map */

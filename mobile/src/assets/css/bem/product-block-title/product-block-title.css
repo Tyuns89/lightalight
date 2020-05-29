@@ -1,0 +1,12 @@
+.product-block-title {
+  margin: 1rem 0;
+  text-align: center;
+  background-color: #202020;
+}
+.product-block-title__wrapper {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #fff;
+  padding: 0.7rem 0;
+}
+/*# sourceMappingURL=product-block-title.css.map */

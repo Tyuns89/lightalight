@@ -1,0 +1,30 @@
+@import "../../variables.less";
+
+.breadcrumbs {
+  padding: .5rem 0;
+
+  &__element {
+    font-size: .8rem;
+    line-height: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: @color-gray;
+    transition: color, .4s;
+
+    &:after {
+      content: '/';
+      padding: 0 .1rem 0 .3rem;
+    }
+
+    &-current {
+      color: @color-orange;
+
+      &:after {
+        display: none;
+      }
+    }
+    &:hover {
+      color: @color-orange;
+    }
+  }
+}

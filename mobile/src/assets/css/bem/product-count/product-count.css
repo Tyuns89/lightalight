@@ -1,0 +1,32 @@
+.product-count__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.product-count__button {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  padding: 0 0.5625rem;
+  background-color: #666;
+  user-select: none;
+  cursor: pointer;
+  transition: opacity, 0.4s;
+}
+.product-count__button:hover {
+  opacity: 0.8;
+}
+.product-count__input {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #202020;
+  width: 3.125rem;
+  text-align: center;
+  outline: none;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-top: 0.05rem solid #666;
+  border-bottom: 0.05rem solid #666;
+}
+/*# sourceMappingURL=product-count.css.map */

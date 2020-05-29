@@ -1,0 +1,27 @@
+.advantages-item__wrapper {
+  text-align: center;
+}
+.advantages-item__img {
+  background-color: #ffa500;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+}
+.advantages-item__img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  left: -0.5rem;
+  top: -0.5rem;
+}
+.advantages-item__text {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-align: center;
+}
+/*# sourceMappingURL=advantages-item.css.map */

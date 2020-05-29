@@ -1,0 +1,28 @@
+@import "../../variables.less";
+
+.button {
+  display: block;
+  background-color: @color-orange;
+  border: none;
+  transition: background-color, .4s;
+
+  &__wrapper {
+    display: block;
+    padding: 1rem .5rem;
+    font-weight: 600;
+    color: @color-gray;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  &:hover {
+    background-color: lighten(@color-orange, 20%);
+  }
+  &-yellow {
+    background-color: @color-yellow;
+
+    &:hover {
+      background-color: lighten(@color-yellow, 20%);
+    }
+  }
+}

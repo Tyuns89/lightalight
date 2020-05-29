@@ -1,0 +1,22 @@
+{
+  "name": "1/app",
+  "authors": [
+    {
+      "name": "gektor",
+      "email": "gektor89.89@yandex.ru"
+    }
+  ],
+  "require": {
+    "php":">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "phpmailer/phpmailer": "^6.1",
+    "slim/slim": "^3.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "construct\\": ""
+    }
+  }
+}

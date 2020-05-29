@@ -1,0 +1,22 @@
+.menu-header__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.menu-header__item {
+  padding-right: 1rem;
+}
+.menu-header__item:last-child {
+  padding-right: 0;
+}
+.menu-header__link {
+  font-size: 0.875rem;
+  line-height: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color, 0.4s;
+}
+.menu-header__link:hover {
+  color: #ffa500;
+}
+/*# sourceMappingURL=menu-header.css.map */

@@ -1,0 +1,39 @@
+@import "../../variables.less";
+
+.product-tab {
+  margin-top: 2rem;
+
+  &__tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  &__tab {
+    flex-basis: 49%;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: @color-black;
+    text-align: center;
+    padding: .75rem 0;
+    background-color: @color-white-gray;
+    cursor: pointer;
+    user-select: none;
+    transition-property: background-color, color;
+    transition-duration: .4s;
+
+    &:hover,
+    &-active {
+      color: @color-white;
+      background-color: @color-yellow;
+    }
+  }
+
+  &__content {
+    display: none;
+    padding: .75rem 0;
+
+    &-active {
+      display: block;
+    }
+  }
+}

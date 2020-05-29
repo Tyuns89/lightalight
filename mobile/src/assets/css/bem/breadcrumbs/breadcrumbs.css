@@ -1,0 +1,25 @@
+.breadcrumbs {
+  padding: 0.5rem 0;
+}
+.breadcrumbs__element {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #313131;
+  transition: color, 0.4s;
+}
+.breadcrumbs__element:after {
+  content: '/';
+  padding: 0 0.1rem 0 0.3rem;
+}
+.breadcrumbs__element-current {
+  color: #ffa500;
+}
+.breadcrumbs__element-current:after {
+  display: none;
+}
+.breadcrumbs__element:hover {
+  color: #ffa500;
+}
+/*# sourceMappingURL=breadcrumbs.css.map */

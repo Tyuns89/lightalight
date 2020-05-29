@@ -1,0 +1,30 @@
+.reviews {
+  padding: 1.5rem 0;
+}
+.reviews__title {
+  font-size: 2.375rem;
+  line-height: 3rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.reviews__item-name {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #313131;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.reviews__item-adress {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.reviews__item-text {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: #313131;
+}
+/*# sourceMappingURL=reviews.css.map */

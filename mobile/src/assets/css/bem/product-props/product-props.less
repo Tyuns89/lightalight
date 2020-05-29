@@ -1,0 +1,40 @@
+@import "../../variables.less";
+
+.product-props {
+
+  &__wrapper {
+    font-size: .8rem;
+    line-height: 1rem;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 600;
+    color: @color-black;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  &__item {
+    flex-basis: 100%;
+    margin-bottom: .75rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__name {
+    padding-right: .5rem;
+  }
+  &__arrow {
+    flex-grow: 1;
+    border-bottom: .05rem dotted @color-gray-light;
+  }
+  &__value {
+    padding-left: .5rem;
+  }
+}

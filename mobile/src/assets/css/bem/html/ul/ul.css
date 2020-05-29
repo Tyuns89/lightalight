@@ -1,0 +1,42 @@
+ul,
+.ul {
+  list-style-type: none;
+  padding: 0 0 0 1rem;
+  margin: 1rem 0;
+}
+ul li,
+.ul li {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #313131;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+ul li:last-child,
+.ul li:last-child {
+  margin-bottom: 0;
+}
+ul li:before,
+.ul li:before {
+  content: '—';
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+ul-li-small,
+.ul-li-small {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 300;
+}
+ul-li-small:before,
+.ul-li-small:before {
+  display: none;
+}
+ul-li-bold,
+.ul-li-bold {
+  font-weight: 600;
+}
+/*# sourceMappingURL=ul.css.map */

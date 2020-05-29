@@ -1,0 +1,16 @@
+.header-menu-button {
+  height: 100%;
+}
+.header-menu-button__wrapper {
+  height: 100%;
+}
+.header-menu-button__link {
+  height: 1.375rem;
+  width: 2rem;
+  background-image: url(./img/header-menu-button_icon.png);
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header-menu-button.css.map */

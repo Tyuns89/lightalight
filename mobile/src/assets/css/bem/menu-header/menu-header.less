@@ -1,0 +1,28 @@
+@import "../../variables.less";
+
+.menu-header {
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  &__item {
+    padding-right: 1rem;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  &__link {
+    font-size: .875rem;
+    line-height: 1.2rem;
+    color: @color-white;
+    text-decoration: none;
+    transition: color, .4s;
+
+    &:hover {
+      color: @color-orange;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.cart-small {
+  position: relative;
+}
+.cart-small__wrapper {
+  width: 1.9375rem;
+  height: 1.9375rem;
+  background-image: url(./img/cart-small_icon.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.cart-small__count {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  background-color: #202020;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5625rem;
+  position: absolute;
+  top: -0.625rem;
+  right: -1rem;
+}
+.cart-small:before {
+  content: '';
+  display: block;
+  width: 1.9375rem;
+  height: 1.9375rem;
+  border-radius: 50%;
+  background-color: #ffa500;
+  position: absolute;
+}
+/*# sourceMappingURL=cart-small.css.map */

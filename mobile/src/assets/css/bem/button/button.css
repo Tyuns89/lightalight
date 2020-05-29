@@ -1,0 +1,25 @@
+.button {
+  display: block;
+  background-color: #ffa500;
+  border: none;
+  transition: background-color, 0.4s;
+}
+.button__wrapper {
+  display: block;
+  padding: 1rem 0.5rem;
+  font-weight: 600;
+  color: #313131;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ffc966;
+}
+.button-yellow {
+  background-color: #fdc43c;
+}
+.button-yellow:hover {
+  background-color: #fee3a1;
+}
+/*# sourceMappingURL=button.css.map */

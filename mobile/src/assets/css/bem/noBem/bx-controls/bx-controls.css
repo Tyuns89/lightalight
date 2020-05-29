@@ -1,0 +1,32 @@
+.bx-controls {
+  margin: 1rem 0;
+}
+.bx-controls .bx-pager {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bx-controls .bx-pager .bx-pager-item {
+  flex-basis: 1.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+  font-size: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+  transition-property: background-color;
+  transition-duration: 0.4s;
+}
+.bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+  background-color: #ffa500;
+}
+.bx-controls .bx-pager .bx-pager-item:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=bx-controls.css.map */

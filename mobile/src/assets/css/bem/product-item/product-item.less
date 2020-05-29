@@ -1,0 +1,109 @@
+@import "../../variables.less";
+
+.product-item {
+  border: .0625rem solid @color-gray-light;
+
+  &__wrapper {
+    text-align: center;
+    padding: .5rem;
+    position: relative;
+  }
+  &__sale-top {
+    font-size: .9rem;
+    line-height: 1rem;
+    color: @color-white;
+    padding: .2rem .3rem;
+    background-color: @color-red;
+    position: absolute;
+    top: -.0625rem;
+    right: -.0625rem;
+  }
+  &__img {
+    display: block;
+    margin-bottom: 1rem;
+
+    &-wrapper {
+      display: block;
+      height: 12.5rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  &__name {
+    display: block;
+    font-size: .9rem;
+    line-height: 1rem;
+    color: @color-black;
+    font-weight: 600;
+    text-decoration: none;
+    height: 2rem;
+    margin-bottom: 1rem;
+    transition: color, .4s;
+
+    &:hover {
+      color: @color-orange;
+    }
+  }
+  &__article {
+    font-size: .8rem;
+    line-height: 1rem;
+    font-weight: 300;
+    color: @color-gray-light;
+  }
+  &__stock {
+    display: inline-block;
+    font-size: .8rem;
+    line-height: 1rem;
+    color: @color-green;
+    padding-left: 1rem;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      width: .625rem;
+      height: .5625rem;
+      background-image: url(./img/product-item_stock.png);
+      background-position: left center;
+      position: absolute;
+      top: .1875rem;
+      left: 0;
+    }
+  }
+  &__props {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 3.75rem;
+    margin: .5rem 0;
+  }
+  &__prop {
+    flex-basis: 100%;
+    font-size: .8rem;
+    line-height: 1.3rem;
+    color: @color-gray;
+  }
+  &__prices {
+    margin: .75rem 0;
+  }
+  &__sale {
+    font-size: .8rem;
+    line-height: 1rem;
+    color: @color-gray-light;
+    text-decoration: line-through;
+    margin-bottom: .2rem;
+  }
+  &__price {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: @color-black;
+    font-weight: 600;
+  }
+  &__button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

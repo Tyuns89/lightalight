@@ -1,0 +1,22 @@
+.page {
+  width: 100%;
+}
+.page__wrapper {
+  width: 480px;
+  margin: 0 auto;
+  padding: 0 0.625rem;
+  box-sizing: border-box;
+}
+.page-black {
+  background-color: #202020;
+}
+.page-gray {
+  background-color: #313131;
+}
+.page-orange {
+  background-color: #ffa500;
+}
+.page-gray-light {
+  background-color: #e6e6e6;
+}
+/*# sourceMappingURL=page.css.map */

@@ -1,0 +1,13 @@
+.header-menu {
+  padding: 0.5rem 0;
+}
+.header-menu__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu__item {
+  height: 100%;
+}
+/*# sourceMappingURL=header-menu.css.map */

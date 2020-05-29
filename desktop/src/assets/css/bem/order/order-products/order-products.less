@@ -1,0 +1,134 @@
+.order-products {
+  display: table;
+  width: 100%;
+
+  &__head {
+    display: table-header-group;
+
+    &-row {
+      display: table-row;
+      background-color: #d7d7d7;
+    }
+
+    &-td {
+      display: table-cell;
+      padding: .7rem;
+      text-align: center;
+      font-size: 1.7rem;
+      font-family: HelveticaThin, sans-serif;
+      white-space: nowrap;
+    }
+  }
+
+  &__body {
+    display: table-row-group;
+
+    &-row {
+      display: table-row;
+    }
+
+    &-td {
+      display: table-cell;
+      text-align: center;
+      padding: 1.4rem .7rem;
+      vertical-align: middle;
+      position: relative;
+    }
+  }
+
+  &__img {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__article {
+    font-size: 1.5rem;
+    color: #313131;
+    text-decoration: none;
+    white-space: nowrap;
+    transition-property: color;
+    transition-duration: .4s;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  &__name {
+    font-size: 1.4rem;
+    color: #313131;
+    text-decoration: none;
+    font-family: HelveticaThin, sans-serif;
+    transition-property: color;
+    transition-duration: .4s;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  &__price {
+    font-size: 2.1rem;
+    font-family: HelveticaMedium, sans-serif;
+    white-space: nowrap;
+
+    &-sale {
+      font-size: 1.7rem;
+      font-family: HelveticaThin, sans-serif;
+      white-space: nowrap;
+      text-decoration: line-through;
+    }
+
+    &-all {
+      font-size: 2.1rem;
+      text-align: right;
+      font-family: HelveticaBold, sans-serif;
+      white-space: nowrap;
+    }
+  }
+
+  &__count {
+    display: flex;
+
+    &-value {
+      font-size: 1.78rem;
+      padding: 0 1.07rem!important;
+      white-space: nowrap;
+      width: 5rem;
+      text-align: center;
+      border: none;
+    }
+    button {
+      cursor: pointer;
+      height: unset;
+      width: 2.5rem;
+      display: block;
+      font-size: 2.5rem;
+      font-family: HelveticaThin, sans-serif;
+      line-height: 3rem;
+      border: none;
+      background-color: transparent;
+      padding: 0;
+    }
+  }
+
+  &__delete {
+
+    &-text {
+      font-size: 1rem;
+      color: #666;
+      cursor: pointer;
+      transition-property: color;
+      transition-duration: .4s;
+      text-decoration: none;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

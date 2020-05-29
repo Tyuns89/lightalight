@@ -1,0 +1,25 @@
+@import "../../variables.less";
+
+.footer-menu {
+  padding: 1.5rem 0;
+
+  &__wrapper {
+    text-align: center;
+  }
+  &__item {
+    margin-bottom: .1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__link {
+    color: @color-gray;
+    text-decoration: none;
+    transition: color, .4s;
+
+    &:hover {
+      color: @color-orange;
+    }
+  }
+}

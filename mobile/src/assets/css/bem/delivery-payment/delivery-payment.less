@@ -1,0 +1,68 @@
+@import "../../variables.less";
+
+.delivery-payment {
+
+  &__wrapper {
+    margin: .5rem 0;
+  }
+  &__item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: .05rem solid @color-gray;
+    border-bottom: none;
+
+    &-title {
+      border: none;
+      border-top: .05rem solid @color-gray;
+
+      &:first-child {
+        border-top: none;
+      }
+    }
+    &:last-child {
+      border-bottom: .05rem solid @color-gray;
+    }
+  }
+  &__title {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color: @color-black;
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+  &__icon {
+    flex-basis: 10%;
+    background-color: @color-black;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    &-adress {
+      background-image: url(./img/delivery-payment_icon_adress.png);
+    }
+    &-time {
+      background-image: url(./img/delivery-payment_icon_time.png);
+    }
+    &-price {
+      background-image: url(./img/delivery-payment_icon_price.png);
+    }
+    &-payment {
+      background-image: url(./img/delivery-payment_icon_payment.png);
+    }
+  }
+  &__text {
+    flex-basis: 90%;
+    box-sizing: border-box;
+    padding: .75rem 0 .75rem 1rem;
+    font-size: .9rem;
+    line-height: 1.2rem;
+
+    &-small {
+      margin-top: .5rem;
+      font-size: .8rem;
+      line-height: 1rem;
+      font-weight: 300;
+    }
+  }
+}

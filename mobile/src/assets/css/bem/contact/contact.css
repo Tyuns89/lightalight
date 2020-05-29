@@ -1,0 +1,24 @@
+.contact {
+  padding: 1.5rem 0;
+}
+.contact__wrapper {
+  text-align: center;
+}
+.contact__item {
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.contact__item:last-child {
+  margin-bottom: 0;
+}
+.contact__link {
+  font-size: inherit;
+  color: #ffa500;
+  text-decoration: none;
+  transition: color, 0.4s;
+}
+.contact__link:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=contact.css.map */

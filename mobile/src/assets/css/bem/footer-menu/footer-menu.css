@@ -1,0 +1,21 @@
+.footer-menu {
+  padding: 1.5rem 0;
+}
+.footer-menu__wrapper {
+  text-align: center;
+}
+.footer-menu__item {
+  margin-bottom: 0.1rem;
+}
+.footer-menu__item:last-child {
+  margin-bottom: 0;
+}
+.footer-menu__link {
+  color: #313131;
+  text-decoration: none;
+  transition: color, 0.4s;
+}
+.footer-menu__link:hover {
+  color: #ffa500;
+}
+/*# sourceMappingURL=footer-menu.css.map */
