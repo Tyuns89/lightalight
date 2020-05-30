@@ -1,3 +1,12 @@
+/* Ширина контейнера */
+/*
+  320
+  360
+  375
+  414
+  480
+  640
+*/
 .popup-text {
   display: none;
 }
@@ -19,7 +28,7 @@
   z-index: 99;
 }
 .popup-text__content {
-  width: 480px;
+  width: 480x;
   box-sizing: border-box;
   padding: 1rem 0.75rem;
   background-color: #fff;

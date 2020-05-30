@@ -4,17 +4,18 @@
   <span class="order__city-value">{{city.city}}, {{city.obl}}</span>
   <span
     class="order__city-other"
+    :class="{'order__city-other-active': !viewOtherCity}"
     @click="changeOtherCity"
-    v-show="!viewOtherCity"
   >Другой город</span>
   <div
     style="display: inline-block;"
+    class="order-other-city"
     v-show="viewOtherCity && !viewNotCity"
   >
     <input
       type="text"
       id="order-city"
-      class="order__city-list"
+      class="order__city-list order-other-city__input"
       v-model="orderCity"
     >
   </div>

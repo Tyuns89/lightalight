@@ -1,0 +1,67 @@
+/* Ширина контейнера */
+/*
+  320
+  360
+  375
+  414
+  480
+  640
+*/
+.order-pvz__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.order-pvz__wrapper-scroll {
+  height: 20rem;
+  overflow-y: scroll;
+  padding-right: 0.25rem;
+}
+.order-pvz__item {
+  margin-bottom: 0.3125rem;
+  padding: 0 0 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.order-pvz__item:nth-child(2n) {
+  background-color: #fbfbfb;
+}
+.order-pvz__item:last-child {
+  margin-bottom: 0;
+}
+.order-pvz__item:after {
+  content: '';
+  width: 0.625rem;
+  height: 0.625rem;
+  box-sizing: border-box;
+  border: 0.07rem solid #e2e2e2;
+  position: absolute;
+  top: calc(50% - 0.3125rem);
+  left: 0;
+  transition-property: background-color, border;
+  transition-duration: 0.4s, 0.4s;
+}
+.order-pvz__item-active:after {
+  background-color: #fdc43c;
+  border: 0.14rem solid #e2e2e257;
+}
+.order-pvz__adress {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 600;
+  box-sizing: border-box;
+  flex-basis: 50%;
+  user-select: none;
+}
+.order-pvz__time {
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  flex-basis: 50%;
+  user-select: none;
+}
+/*# sourceMappingURL=order-pvz.css.map */

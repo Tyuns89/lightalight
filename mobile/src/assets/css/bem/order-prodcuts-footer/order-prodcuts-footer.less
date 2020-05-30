@@ -1,0 +1,53 @@
+.order-prodcuts-footer {
+  margin-top: 1.07rem;
+
+  &__row {
+    display: flex;
+  }
+
+  &__item {
+    flex-grow: 1;
+    flex-basis: 50%;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  &__clear {
+    position: relative;
+    display: inline-block;
+
+    &-text {
+      font-size: 1.42rem;
+      color: #666;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+      transition-property: color;
+      transition-duration: .4s;
+      text-decoration: none;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -.14rem;
+        left: 10%;
+        width: 80%;
+        height: .14rem;
+        background-color: #666;
+      }
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  &__itog {
+    width: 18rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: .7rem;
+  }
+}

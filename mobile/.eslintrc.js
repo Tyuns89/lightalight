@@ -28,6 +28,8 @@ module.exports = {
   },
   globals: {
     '$': true,
-    'jQuery': true
+    'jQuery': true,
+    'SHK': true,
+    'Cookies': true
   }
 }

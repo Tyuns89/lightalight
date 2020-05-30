@@ -1,0 +1,44 @@
+@import "../../variables.less";
+
+.order-itog {
+
+  &__item {
+    display: flex;
+    margin-bottom: .25rem;
+
+    &:nth-child(1) {
+      font-size: 1.4rem;
+      line-height: 1.4rem;
+      font-weight: 600;
+    }
+    &:nth-child(2) {
+      font-size: 1.3rem;
+      line-height: 1.3rem;
+      font-weight: 600;
+    }
+    &:nth-child(3) {
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+    &:nth-child(4) {
+      font-size: 1.07rem;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    flex-grow: 1;
+    flex-basis: 50%;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  &__value {
+    flex-grow: 1;
+    flex-basis: 50%;
+    white-space: nowrap;
+    text-align: right;
+  }
+}

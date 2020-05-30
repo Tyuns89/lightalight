@@ -4,10 +4,26 @@
   width: 100%;
 
   &__wrapper {
-    width: @tablet_480_area;
+    width: @tablet_640_area;
     margin: 0 auto;
     padding: 0 .625rem;
     box-sizing: border-box;
+
+    @media @tablet_320 {
+      width: @tablet_320_area;
+    }
+    @media @tablet_360 {
+      width: @tablet_360_area;
+    }
+    @media @tablet_375 {
+      width: @tablet_375_area;
+    }
+    @media @tablet_414 {
+      width: @tablet_414_area;
+    }
+    @media @tablet_480 {
+      width: @tablet_480_area;
+    }
   }
 
   &-black {

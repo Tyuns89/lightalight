@@ -1,11 +1,45 @@
+/* Ширина контейнера */
+/*
+  320
+  360
+  375
+  414
+  480
+  640
+*/
 .page {
   width: 100%;
 }
 .page__wrapper {
-  width: 480px;
+  width: 640px;
   margin: 0 auto;
   padding: 0 0.625rem;
   box-sizing: border-box;
+}
+@media screen and (max-width: 320px) {
+  .page__wrapper {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .page__wrapper {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .page__wrapper {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .page__wrapper {
+    width: 414px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .page__wrapper {
+    width: 480x;
+  }
 }
 .page-black {
   background-color: #202020;
